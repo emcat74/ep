@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+h1 {
+  color:#DE0447;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.bio h1 {
+  font-size: 60px;
+}
+
+.bio p {
+  font-size: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.hometop {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #E1F1F5;
+  margin: 0;
+  background-position: 100%;
+}
+
+.homebottom {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  gap: 150px;
+  font-size: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+nav {
+  color: #3995ac;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+  font-size: 25px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 35px;
+}
+
+.socials li {
+  list-style-type: none;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+nav li:hover {
+  color: #DE0447;
+}
+
+nav h1 {
+  color: black;
+}
+
+.portfolio {
+  padding-bottom: 80px;
+}
+
+.portfolio h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 70px;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 70%;
+  gap: 30px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  max-width: 80%;
+  text-align: justify;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title p {
+  color: gray;
+}
+
+.text h2 {
+  font-size: 35px;
+}
+
+.text p {
+  font-size: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+}
+
+a img {
+  transition: transform .2s;
+}
+
+a img:hover {
+  transform: scale(1.2);
+  transition: transform .2s;
+}
+
+.support {
+  padding-bottom: 190px;
+  padding-left: 30px;
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  top: 50%;
+  padding: 10px;
+  margin-top: 10px;
+  transition: .2s;
+  font-size: 15px;
+  background-color: #E1F1F5;
+}
+
+button:hover {
+  transition: .2s;
+  cursor: pointer;
+  background-color: #DE0447;
+  color: white;
+}
+
